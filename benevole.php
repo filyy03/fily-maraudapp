@@ -1,15 +1,6 @@
-<?php
-/**
- * ========================================
- * PAGE BÉNÉVOLAT - Formulaire d'inscription
- * ========================================
- * Permet aux utilisateurs de s'inscrire comme bénévoles :
- * - Nom, email, date de disponibilité
- * - Message facultatif pour préciser la motivation
- * - Insertion en base de données dans la table 'benevoles'
- * ========================================
- */
+<!-- PAGE BÉNÉVOLE - Formulaire d'inscription permettant aux utilisateurs de devenir bénévoles avec enregistrement des informations en base de données -->
 
+<?php
 // Démarrer la session
 session_start();
 

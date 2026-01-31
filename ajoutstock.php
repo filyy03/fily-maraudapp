@@ -1,16 +1,6 @@
-<?php
-/**
- * ========================================
- * PAGE AJOUT STOCK - Admin
- * ========================================
- * Permet aux administrateurs d'ajouter des articles au stock :
- * - Vérification connexion admin
- * - Protection mode demo (lecture seule)
- * - Formulaire avec catégories et types dynamiques
- * - Insertion en base de données
- * ========================================
- */
+<!-- PAGE AJOUT STOCK - Permet aux administrateurs d'ajouter des articles au stock avec vérification de connexion, protection mode démo et insertion en base -->
 
+<?php
 // Démarrer la session
 session_start();
 

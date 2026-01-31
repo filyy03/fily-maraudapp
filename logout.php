@@ -1,13 +1,6 @@
-<?php
-/**
- * ========================================
- * DÉCONNEXION ADMIN - Maraud'App
- * ========================================
- * Déconnecte l'administrateur en détruisant la session
- * et redirige vers la page de connexion
- * ========================================
- */
+<!-- DÉCONNEXION ADMIN - Détruit la session administrateur et redirige vers la page de connexion -->
 
+<?php
 // Démarrer la session pour pouvoir la détruire
 session_start();
 

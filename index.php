@@ -1,15 +1,7 @@
-<?php
-/**
- * ========================================
- * PAGE D'ACCUEIL - Maraud'App
- * ========================================
- * Présentation de la plateforme et des 3 actions principales :
- * - Faire un don (vêtements, nourriture, hygiène)
- * - Devenir bénévole (inscription aux maraudes)
- * - Partager l'application (réseaux sociaux)
- * ========================================
- */
+<!-- PAGE D'ACCUEIL - Présentation de Maraud'App avec accès aux sections maraudes, dons, bénévolat et partage de la plateforme -->
 
+
+<?php
 // Récupère le nom du fichier actuel pour la navbar active
 $page = basename($_SERVER['PHP_SELF']);
 ?>
@@ -115,7 +107,7 @@ $page = basename($_SERVER['PHP_SELF']);
       </p>
       
        <!-- Bouton de partage -->
-<button id="btn-share" class="btn-don">Partager Maraud'App</button>
+<a href="#" id="btn-partage" class="btn-don">Partager Maraud'App</a>
 </div>
 </section>
 
@@ -125,12 +117,14 @@ $page = basename($_SERVER['PHP_SELF']);
 
 <!-- ================ SCRIPT ===================== -->
 <script>
-const btn = document.getElementById('btn-share');
+const btn = document.getElementById('btn-partage');
 
 btn.addEventListener('click', (event) => {
   event.preventDefault();
   
+  // on vérifie si l'API de partage est disponible
   if (navigator.share) {
+    // cela ouvre le popup de partage natif
     navigator.share({
       title: 'Maraud\'App',
       text: 'Découvrez Maraud\'App - Solidarité et aide aux sans-abri',
@@ -139,6 +133,7 @@ btn.addEventListener('click', (event) => {
     .then(() => console.log('Partagé !'))
     .catch((error) => console.log('Erreur :', error));
   } else {
+    // si le navigateur ne supporte pas l'API, affiche une alerte avec le lien
     alert('Partage non disponible sur ce navigateur.\nCopiez ce lien :\n' + window.location.href);
   }
 });

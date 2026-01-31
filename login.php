@@ -1,16 +1,6 @@
-<?php
-/**
- * ========================================
- * PAGE DE CONNEXION ADMIN - Maraud'App
- * ========================================
- * Authentification des administrateurs :
- * - Vérification email/mot de passe
- * - Gestion de deux types de comptes (admin et demo)
- * - Redirection vers le dashboard en cas de succès
- * - Messages d'erreur en cas d'échec
- * ========================================
- */
+<!-- PAGE DE CONNEXION ADMIN - Authentification des administrateurs avec vérification email/mot de passe et redirection vers le dashboard -->
 
+<?php
 // Démarrer la session
 session_start();
 

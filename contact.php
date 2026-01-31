@@ -1,15 +1,6 @@
-<?php
-/**
- * ========================================
- * PAGE CONTACT - Formulaire de contact
- * ========================================
- * Permet aux utilisateurs de nous contacter :
- * - Formulaire avec nom, prénom, email, message
- * - Messages flash (succès/erreur) via $_SESSION
- * - Traitement dans traitement.php
- * ========================================
- */
+<!-- PAGE CONTACT - Formulaire de contact avec messages flash (succès/erreur) et traitement des données via traitement.php -->
 
+<?php
 // Démarrer la session pour les messages flash
 session_start();
 

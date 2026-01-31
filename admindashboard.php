@@ -1,16 +1,6 @@
-<?php
-/**
- * ========================================
- * DASHBOARD ADMIN - Maraud'App
- * ========================================
- * Page principale de gestion :
- * - Dons : validation/refus des propositions
- * - Bénévoles : liste des inscriptions
- * - Stocks : gestion de l'inventaire
- * Accessible uniquement aux administrateurs connectés
- * ========================================
- */
+<!-- DASHBOARD ADMIN - Tableau de bord de gestion des dons, bénévoles et stocks, accessible uniquement aux administrateurs connectés -->
 
+<?php
 // Démarrer la session
 session_start();
 

@@ -1,16 +1,6 @@
-<?php
-/**
- * ========================================
- * TRAITEMENT FORMULAIRE DE CONTACT
- * ========================================
- * Traite les données du formulaire contact.php :
- * - Validation et nettoyage des champs
- * - Envoi d'email
- * - Messages de retour via $_SESSION
- * - Redirection vers contact.php
- * ========================================
- */
+<!-- TRAITEMENT FORMULAIRE CONTACT - Validation des champs, envoi d'email, gestion des messages de retour et redirection -->
 
+<?php
 // Démarrer la session (indispensable pour les messages)
 session_start();
 

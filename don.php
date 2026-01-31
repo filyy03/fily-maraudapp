@@ -1,15 +1,6 @@
+<!-- PAGE DON - Formulaire permettant aux utilisateurs de proposer des dons avec sélection dynamique des produits et insertion en base de données -->
+ 
 <?php
-/**
- * ========================================
- * PAGE DON - Formulaire de don
- * ========================================
- * Permet aux utilisateurs de proposer des dons :
- * - Vêtements, couvertures, nourriture, hygiène, accessoires
- * - Formulaire avec sélection dynamique des types de produits
- * - Validation et insertion en base de données
- * ========================================
- */
-
 // Démarrer la session (nécessaire pour $_SESSION)
 session_start();
 

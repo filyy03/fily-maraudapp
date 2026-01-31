@@ -1,14 +1,6 @@
-<?php
-/**
- * ========================================
- * PAGE MARAUDE - Dates
- * ========================================
- * Permet aux utilisateurs de voir les dates des prochaines maraudes :
- * - Dates et informations sur les maraudes
- * - Lien vers 'benevoles'
- * ========================================
- */
+<!-- PAGE MARAUDE - Affichage des dates et informations des prochaines maraudes avec lien vers l'inscription bénévole -->
 
+<?php
 // Démarrer la session
 session_start();
 
